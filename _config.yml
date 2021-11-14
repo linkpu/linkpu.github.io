@@ -158,8 +158,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /tags/
               - title: '<i class="fas fa-archive fa-fw"></i> 归档'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
+              # - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+              #   href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -296,7 +296,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     document.getElementById("run_time_hour"),
                     document.getElementById("run_time_minute"),
                     document.getElementById("run_time_second"),
-                    "10/04/2017 11:03:56")// 这是我第一篇CSDN博客的时间
+                    "11/14/2021 11:03:56")// 这是我第一篇CSDN博客的时间
                   </script>
                 </div>
               - | # 不蒜子页面统计，看不懂可不改
@@ -334,22 +334,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2017-2021 WuK
+                  2019-2021 linkpu
                 </div>
-              - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fas fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="https://i.loli.net/2021/03/17/Y47tDZTrcy2xwRa.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
+              # - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
+              #   <div>
+              #     <i class="fas fa-info-circle fa-fw"></i>
+              #     <a href="http://beian.miit.gov.cn">
+              #       粤ICP备 20024947号
+              #     </a>
+              #   </div>
+              # - | # 公安网备信息
+              #   <div>
+              #     <img src="https://i.loli.net/2021/03/17/Y47tDZTrcy2xwRa.png" class="fa-fw"></img>
+              #     <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
+              #       皖公网安备 34070202000407号
+              #     </a>
+              #   </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
